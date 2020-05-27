@@ -16,6 +16,11 @@ class MainActivity : AppCompatActivity() {
           startActivity(myIntent)
 
       }
+        goToSecondBtn.setOnClickListener {
+            val myIntent = Intent(this,SecondActivity::class.java)
+            startActivity(myIntent)
+
+        }
     }
 
 }
