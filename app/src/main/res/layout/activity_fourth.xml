@@ -15,7 +15,7 @@
         android:hint="메인에 돌려보낼 값"/>
 
     <Button
-        android:id="@+id/gotoFourthBtn"
+        android:id="@+id/goToFourthBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="입력완료"/>

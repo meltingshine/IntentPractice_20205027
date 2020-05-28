@@ -32,9 +32,10 @@ class MainActivity : AppCompatActivity() {
 
         }
 
-        gotoFourthBtn.setOnClickListener {
+        goToFourthBtn.setOnClickListener {
             val myIntent = Intent(this, FourthActivity::class.java)
-            startActivity(myIntent)
+            startActivityForResult(myIntent, 1000)
+
 
         }
     }
