@@ -3,6 +3,7 @@ package com.example.intentpractice_20205027
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_fourth.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -28,6 +29,12 @@ class MainActivity : AppCompatActivity() {
             myIntent.putExtra("input",content)
             startActivity(myIntent)
 
+
+        }
+
+        gotoFourthBtn.setOnClickListener {
+            val myIntent = Intent(this, FourthActivity::class.java)
+            startActivity(myIntent)
 
         }
     }
